@@ -13,14 +13,14 @@ public class MainActivity extends AppCompatActivity // implements View.OnClickLi
 
     //Button button = (Button)findViewById(R.id.button);
     //final ImageView imv1 = (ImageView)findViewById(R.id.imageView);
-    //final ImageView imv2 = (ImageView)findViewById(R.id.imageView2);
+    final ImageView imv2 = (ImageView)findViewById(R.id.imageView2);
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //imv2.setVisibility(View.GONE);
+        imv2.setVisibility(View.GONE);
     }
 
 
